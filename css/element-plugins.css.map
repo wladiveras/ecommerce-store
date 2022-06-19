@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;;;;;;;;;;;;;EAeE;AACF,OAAO,CAAP,oGAAO",
+    "sources": [
+        "../resources/assets/sass/element-plugins.scss"
+    ],
+    "names": [],
+    "file": "element-plugins.css"
+}

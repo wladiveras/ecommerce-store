@@ -1,0 +1,130 @@
+.detail-card {
+  border-radius: unset !important;
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+.detail-card .white .el-switch__label {
+  color: transparent;
+  font-size: 12px !important;
+}
+
+.detail-card .white .el-switch__label.is-active {
+  color: #ffffff;
+}
+
+.detail-card .el-select--mini {
+  margin-bottom: 0 !important;
+}
+
+.detail-card .form-control.input-sm {
+  height: 28px;
+  font-size: 12px;
+}
+
+.detail-card .btn.btn-sm {
+  height: 30px;
+  font-size: 12px;
+}
+
+.detail-card .link {
+  font-weight: 400;
+}
+
+.detail-card .link.white {
+  color: white !important;
+}
+
+.detail-card .card-header {
+  background: -webkit-linear-gradient(top, #f7f7f7, #eaeaea);
+  padding: 2px 10px;
+  color: black;
+  border: 1px solid -webkit-linear-gradient(top, #f7f7f7, #eaeaea);
+  border-radius: unset;
+  padding: 0.4rem 1.25rem;
+}
+
+.detail-card .card-header h4.title {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.detail-card .card-header h4 .icon {
+  font-size: 14px;
+  margin-right: 10px;
+  color: black;
+}
+
+.detail-card .card-footer {
+  background-color: #F7F7F7;
+  padding: 5px 10px 5px 10px;
+}
+
+.detail-card .card-body {
+  padding: 10px 20px 10px 20px;
+}
+
+.detail-card .custom-status-icon {
+  font-size: 14px !important;
+}
+
+.detail-card .custom-status-icon.pending {
+  color: #FBB254;
+}
+
+.detail-card .custom-status-icon.forwarded {
+  color: #ff42e5;
+}
+
+.detail-card .custom-status-icon.canceled {
+  color: #ED5564;
+}
+
+.detail-card .custom-status-icon.approved {
+  color: #99D468;
+}
+
+.detail-card .custom-status-icon.production {
+  color: blue;
+}
+
+.detail-card .custom-status-icon.finished {
+  color: #0fe7ff;
+}
+
+.detail-card .custom-status-icon.finishing {
+  color: #a30fff;
+}
+
+.detail-card table.items {
+  margin: 0 !important;
+  width: 100%;
+  border: 1px solid #e2e2e2;
+}
+
+.detail-card table.items thead tr {
+  background: -webkit-linear-gradient(top, #f7f7f7, #eaeaea);
+}
+
+.detail-card table.items thead tr th {
+  padding: 7px 20px 6px 20px;
+  font-weight: 500;
+}
+
+.detail-card table.items thead tr th::before {
+  top: 6px;
+}
+
+.detail-card table.items thead tr th::after {
+  top: 6px;
+}
+
+.detail-card table.items tbody {
+  font-size: 12px;
+}
+
+.detail-card table.items tbody tr td {
+  padding: 9px 20px 4px 20px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=detail.css.map */

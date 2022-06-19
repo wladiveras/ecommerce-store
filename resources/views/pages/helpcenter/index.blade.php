@@ -1,0 +1,9 @@
+@extends('template.simple')
+@section('body')
+<helpcenter-component
+    :category="{{json_encode($category)}}"
+    :topic="{{json_encode($topic)}}"
+    :allTopics="{{json_encode($topic)}}"
+>   
+</helpcenter-component>
+@endsection

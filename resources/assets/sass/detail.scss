@@ -1,0 +1,110 @@
+
+$fontsizesm : 12px;
+$fontsizemd : 14px;
+$cardheadercolor : -webkit-linear-gradient(top,#f7f7f7,#eaeaea);
+$backgroundtableheader : -webkit-linear-gradient(top,#f7f7f7,#eaeaea);
+// e0e0e0
+
+.detail-card {
+    border-radius: unset!important;
+    .white {
+        .el-switch__label {
+            color : transparent;
+            font-size : $fontsizesm!important;
+            &.is-active {
+                color: #ffffff;
+            }
+        }
+    }
+    .el-select--mini {
+      margin-bottom: 0!important;
+    }
+    .form-control {
+        &.input-sm {
+            height: 28px;
+            font-size: $fontsizesm;
+        }
+    }
+    .btn {
+        &.btn-sm {
+            height: 30px;
+            font-size: $fontsizesm;
+        }
+    }
+    border-radius : 0px;
+    font-size : $fontsizesm;
+    .link {
+        &.white {
+            color : white !important;
+        }
+        font-weight: 400;
+    }
+    .card-header {
+        background: $cardheadercolor;
+        padding: 2px 10px;
+        color: black;
+        border: 1px solid $cardheadercolor;
+        border-radius: unset;
+        padding: 0.4rem 1.25rem;
+        h4 {
+            &.title {
+                margin-bottom: 0;
+                font-size: $fontsizemd;
+            }
+            .icon {
+                font-size : $fontsizemd;
+                margin-right : 10px;
+                color : black;
+            }
+        }
+    }
+    .card-footer {
+        background-color:#F7F7F7;
+        padding: 5px 10px 5px 10px;
+    }
+    .card-body {
+        padding: 10px 20px 10px 20px;
+    }
+    .custom-status-icon {
+        font-size: 14px!important;
+        &.pending {color:#FBB254;}
+        &.forwarded {color:#ff42e5;}
+        &.canceled {color:#ED5564;}
+        &.approved {color:#99D468;}
+        &.production {color:blue;}
+        &.finished {color:#0fe7ff;}
+        &.finishing {color:#a30fff};
+    }
+    table {
+        &.items {
+          margin : 0!important;
+          width : 100%;
+          border: 1px solid #e2e2e2;
+          thead {
+              & tr {
+                  background: $backgroundtableheader;
+                  th {
+                      padding: 7px 20px 6px 20px;
+
+                      font-weight: 500;
+                      &::before {
+                        top : 6px;
+                      }
+                      &::after {
+                        top : 6px;
+                      }
+                  }
+              }
+          }
+          tbody {
+              font-size : $fontsizesm;
+              & tr {
+                  td {
+                      padding: 9px 20px 4px 20px;
+                      font-weight: 400;
+                  }
+              }
+          }
+        }
+    }
+  }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.542" height="32" viewBox="0 0 32.542 32">
+  <g id="polionda" transform="translate(-391.808 4899)">
+    <g id="Group_1132" data-name="Group 1132">
+      <rect id="Rectangle_1999" data-name="Rectangle 1999" width="32" height="32" transform="translate(392 -4899)" fill="rgba(255,255,255,0)"/>
+      <path id="Path_1684" data-name="Path 1684" d="M0,0H32V32H0Z" transform="translate(392 -4899)" fill="rgba(255,255,255,0)"/>
+      <g id="Group_1131" data-name="Group 1131" transform="translate(-1 6.776)">
+        <g id="Group_1129" data-name="Group 1129" transform="translate(393 -4884.047)">
+          <path id="Path_1670" data-name="Path 1670" d="M19.161,85.959a2.107,2.107,0,0,1-1.564-.7,1.462,1.462,0,0,0-2.254,0,2.1,2.1,0,0,1-3.128,0,1.461,1.461,0,0,0-2.254,0,2.1,2.1,0,0,1-3.128,0,1.461,1.461,0,0,0-2.254,0,2.1,2.1,0,0,1-3.128,0,1.489,1.489,0,0,0-1.127-.531.324.324,0,1,1,0-.647,2.107,2.107,0,0,1,1.564.7,1.462,1.462,0,0,0,2.254,0,2.1,2.1,0,0,1,3.128,0,1.461,1.461,0,0,0,2.254,0,2.1,2.1,0,0,1,3.128,0,1.462,1.462,0,0,0,2.254,0,2.1,2.1,0,0,1,3.128,0,1.462,1.462,0,0,0,2.254,0,2.107,2.107,0,0,1,1.564-.7.324.324,0,1,1,0,.647,1.49,1.49,0,0,0-1.127.531A2.107,2.107,0,0,1,19.161,85.959Z" transform="translate(0 -84.08)" fill="#007041"/>
+        </g>
+        <path id="Path_1681" data-name="Path 1681" d="M393.479-4883.791l12.436-12.985h19.1l-10.058,13.063-.223,1.31" transform="translate(-0.036)" fill="none" stroke="#007041" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+        <path id="Path_1682" data-name="Path 1682" d="M415.754-4889.455H394.171l.2-1.359" transform="translate(-1.013 7.127)" fill="none" stroke="#007041" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+        <path id="Path_1683" data-name="Path 1683" d="M415.469-4889.32c-5.4,0-21.3-.023-21.3-.023" transform="translate(-0.275 5.167)" fill="none" stroke="#007041" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+        <path id="Path_1685" data-name="Path 1685" d="M418.131-4884.244l8.535-11.3.243-2.232" transform="translate(-1.91 1)" fill="none" stroke="#007041" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

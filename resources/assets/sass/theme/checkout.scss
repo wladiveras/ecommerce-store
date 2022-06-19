@@ -1,0 +1,92 @@
+#checkout-page{
+  margin-bottom: 50px;
+  .continue{
+    width:306px;
+  }
+  .shipping-data{
+    @extend .hide-mark;
+  }
+  .payment-method{
+    .card-body{
+      .hide-mark{
+        margin-bottom:0px;
+      }
+    }
+    .form-wrap{
+      border: 1px $gray-200 solid;
+      border-top: none;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius:5px;
+    }
+    .payment-options{
+      border-bottom:none;
+      display: flex;
+      flex-direction: column;
+      >div{
+        flex: 1 1 auto!important;
+        border:1px $gray-200 solid;
+        &:first-child{
+          border-top-left-radius: 5px;
+        }
+        &:last-child{
+          border-top-right-radius: 5px;
+        }
+        >label{
+          @extend .f-18;
+          color: $gray-900!important;
+          transition: .2s;
+          text-align: center;
+          padding: 20px;
+        }
+        &.active{
+          background-color:#D7D7D7;
+          border:$secondary;
+          >label{
+            color:#7d1756!important;
+          }
+        }
+      }
+
+    }
+    .card-name::placeholder {
+      text-transform: initial;
+    }
+  }
+  .card-header{
+    *{
+      text-transform: uppercase;
+    }
+  }
+  .resume{
+    .card-footer{
+      background-color: transparent;
+    }
+  }
+}
+
+
+.svg-hover:hover{
+  &, * {
+    transition: .2s;
+    border-color:$primary;
+  }
+  .svg{
+    path,.b,g{
+      fill:$primary!important;
+    }
+  }
+  color:$primary!important;
+}
+#order-complete{
+  a.btn{
+    padding: 15px 61px;
+  }
+}
+.payment-method{
+
+  .btn-finish-custom{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,13 @@
+#accordion .card-header {
+  padding: 0.4rem 1.25rem;
+}
+
+#accordion .card-header .btn-link {
+  color: #000;
+}
+
+.card .card-header {
+  border-bottom: none;
+  background-color: #f5a660;
+}
+/*# sourceMappingURL=card.css.map */

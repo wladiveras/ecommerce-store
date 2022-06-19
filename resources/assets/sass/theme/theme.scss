@@ -1,0 +1,82 @@
+@import 'font';
+@import 'header';
+@import 'footer';
+@import 'button';
+@import 'card';
+@import 'grid';
+@import 'shadow';
+@import 'checkout';
+@import 'cart';
+@import 'product';
+
+#view-wrapper{
+  @include media-breakpoint-up(sm){
+    min-height: calc((-452px) + (110vh));
+  }
+}
+
+.searching{
+  display: block!important;
+  &+.container-fluid{
+    display:none!important;
+  }
+}
+.svg{
+  width:34px;
+  height:24px;
+  .a{
+    fill:rgba(255,255,255,0);
+  }
+  .b{
+    fill:#313131;
+  }
+}
+.hide-mark{
+  .custom-control{
+    width:100%;
+    padding-left:0;
+    @media (max-width: 575px){
+      padding-right:0;
+    }
+    margin:0;
+    >input[type="radio"]:checked+label>.item,
+    >input[type="checkbox"]:checked+label>.item{
+      border-color: $secondary!important;
+    }
+    label{
+      width:100%;
+      &:hover{
+        >.item{
+          border-color: $primary!important;
+        }
+      }
+      &::before,&::after{
+        display: none;
+      }
+      .item{
+        transition: 0.2s;
+        padding:20px;
+      }
+    }
+  }
+}
+.no-select{
+  user-select: none;
+}
+a, a.btn-link{
+  color:$gray-900;
+  &:hover{
+    color:$gray-900;
+  }
+}
+.svg-circle{
+  width: 32px;
+  text-align: center;
+  padding:4px;
+  border-radius: 100px;
+  border:1px solid $gray-500;
+}
+.wrapper, #navbar > #navbarResponsive > div{
+  max-width: 1600px;
+    margin: 0 auto;
+}

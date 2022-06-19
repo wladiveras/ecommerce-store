@@ -1,0 +1,25 @@
+$sizes: 64,48,44,32,22,18,14,12,10;
+
+@each $size in $sizes {
+  .f-#{$size} { font-size: $size+px !important; }
+}
+
+$grays: (
+1:$gray-100,
+2:$gray-200,
+3:$gray-300,
+4:$gray-400,
+5:$gray-500,
+6:$gray-600,
+7:$gray-700,
+8:$gray-800,
+9:$gray-900);
+
+@each $index, $gray in $grays {
+  .g-#{$index} {
+    color: $gray;
+  }
+}
+.f-space{
+  letter-spacing: 1px;
+}

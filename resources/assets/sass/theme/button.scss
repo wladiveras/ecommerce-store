@@ -1,0 +1,62 @@
+.btn{
+  border-radius: 36px;
+  text-transform: uppercase;
+}
+.btn-primary{
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.btn-white{
+  color:$gray-900;
+}
+.btn-padding{
+  padding:10px 24px;
+}
+@each $key, $color in $grays {
+  %btn-g-#{$key}{
+    background-color: $color;
+    border-color: $color;
+    color:white;
+  }
+  .btn-g-#{$key} {
+    @extend %btn-g-#{$key};
+    &:hover{
+      transition: .2s;
+      background-color: darken($color, 10%);
+    }
+  }
+  .btn-outline-g-#{$key}{
+    color: $color;
+    background-color: transparent;
+    background-image: none;
+    border-color: $color;
+    &:hover{
+      @extend %btn-g-#{$key}
+    }
+  }
+}
+
+@each $key, $color in $colors {
+  %btn-#{$key}{
+    background-color: $color;
+    border-color: $color;
+    color:white;
+  }
+  .btn-#{$key} {
+    @extend %btn-#{$key};
+    &:hover{
+      transition: .2s;
+      background-color: darken($color, 10%);
+    }
+  }
+  .btn-outline-#{$key}{
+    color: $color;
+    background-color: transparent;
+    background-image: none;
+    border-color: $color;
+    &:hover{
+      @extend %btn-#{$key}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "ismaelgr/getnet",
+    "description": "SDK integration GetNet",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ismael Gonçalves",
+            "email": "ecommerce@padraocolor.com.br"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/services"
+        ],
+        "psr-4": {
+            "ismaelgr\\getnet\\": "src/"
+        }
+    }
+}
